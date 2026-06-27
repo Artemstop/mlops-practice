@@ -10,3 +10,17 @@ __pycache__/
 /models/*
 !/data/.keep
 !/models/.keep
+
+# Среда и кэш
+.venv/g
+.env
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Данные и модели
+/data/*
+/models/*
+!/data/.keep
+!/models/.keep
