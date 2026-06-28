@@ -16,7 +16,7 @@ jobs:
       - name: Check Health Endpoint
         # ЗАМЕНИТЕ URL на прямую ссылку вашего спейса!
         run: |
-          curl --fail https://<ВАШ_ЛОГИН>-<ИМЯ_СПЕЙСА>.hf.space/health
+          curl --fail https://Artemka333-iris-api-novikov.hf.space/health
 
       - name: Create Issue on Failure
         # Этот шаг выполнится ТОЛЬКО если curl выдаст ошибку (сервер лежит)
